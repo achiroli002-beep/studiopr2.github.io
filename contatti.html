@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contatti — [NOME STUDIO]</title>
+  <meta name="description" content="Dove siamo, orari, telefono ed email di [NOME STUDIO] a [CITTÀ]. Come raggiungerci in auto e con i mezzi pubblici.">
+  <link rel="canonical" href="https://www.[DOMINIO].it/contatti.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Albert+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Salta al contenuto</a>
+
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Navigazione principale">
+    <a class="brand" href="index.html">
+      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="24" cy="26" r="17" fill="#7B5EA7" opacity=".85"/>
+        <circle cx="40" cy="28" r="17" fill="#B26A24" opacity=".8"/>
+        <circle cx="32" cy="42" r="17" fill="#3E7561" opacity=".8"/>
+      </svg>
+      <span>[NOME STUDIO]</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Apri o chiudi il menu">☰</button>
+    <ul id="menu" class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="professionisti.html">I professionisti</a></li>
+      <li><a href="servizi.html">Servizi</a></li>
+      <li><a href="contatti.html" aria-current="page">Contatti</a></li>
+      <li><a class="btn btn--primary btn--mobile-only" href="prenota.html">Prenota un appuntamento</a></li>
+    </ul>
+    <a class="btn btn--primary" href="prenota.html">Prenota</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Dove trovarci</p>
+      <h1>Contatti</h1>
+
+      <div class="contact-grid" style="margin-top:1.5rem">
+        <ul class="contact-list">
+          <li><strong>Indirizzo</strong>[VIA E NUMERO CIVICO], [CAP] [CITTÀ]</li>
+          <li><strong>Telefono</strong><a href="tel:[+39TELEFONO]">[+39 TELEFONO]</a></li>
+          <li><strong>Email</strong><a href="mailto:[EMAIL]">[EMAIL]</a></li>
+          <li><strong>Orari</strong>[ORARI, es: Lun–Ven 9:00–19:00 · Sab su appuntamento]</li>
+          <li><strong>Come raggiungerci</strong>[INDICAZIONI, es: A 5 minuti a piedi dalla fermata [FERMATA]; parcheggio gratuito in [VIA]. Ingresso accessibile, ascensore al piano.]</li>
+        </ul>
+
+        <!-- MAPPA: incollare qui l'iframe di Google Maps (Condividi →
+             Incorpora una mappa). Nota privacy: per caricare la mappa solo
+             dopo il consenso, usare l'attributo data-src al posto di src
+             oppure un link esterno "Apri in Google Maps". -->
+        <div class="map-frame">
+          <p>[INSERIRE_IFRAME_MAPPA]<br><a href="https://www.google.com/maps/search/?api=1&query=[INDIRIZZO+URL-ENCODED]" target="_blank" rel="noopener">Apri in Google Maps ↗</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--deep">
+    <div class="wrap reveal" style="text-align:center">
+      <h2>Preferisci prenotare online?</h2>
+      <p class="muted">Scegli professionista e orario dal nostro calendario.</p>
+      <a class="btn btn--primary" href="prenota.html">Prenota un appuntamento</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h3>[NOME STUDIO]</h3>
+      <p>[VIA E NUMERO CIVICO]<br>[CAP] [CITTÀ]</p>
+      <p>P. IVA [PARTITA IVA]</p>
+    </div>
+    <div>
+      <h3>Esplora</h3>
+      <ul>
+        <li><a href="chi-siamo.html">Chi siamo</a></li>
+        <li><a href="professionisti.html">I professionisti</a></li>
+        <li><a href="servizi.html">Servizi</a></li>
+        <li><a href="prenota.html">Prenota</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contatti</h3>
+      <ul>
+        <li><a href="tel:[+39TELEFONO]">[+39 TELEFONO]</a></li>
+        <li><a href="mailto:[EMAIL]">[EMAIL]</a></li>
+        <li><a href="contatti.html">Orari e come raggiungerci</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-legal">
+    <span>© <span id="year"></span> [NOME STUDIO]. Tutti i diritti riservati.</span>
+    <span><a href="privacy-policy.html">Privacy Policy</a> · <a href="cookie-policy.html">Cookie Policy</a></span>
+  </div>
+</footer>
+
+<div id="cookie-banner" class="cookie-banner" role="region" aria-label="Informativa cookie">
+  <h3>Cookie su questo sito</h3>
+  <p>Usiamo solo cookie tecnici necessari al funzionamento. Eventuali cookie di statistica o di terze parti vengono attivati solo con il tuo consenso. <a href="cookie-policy.html">Leggi la Cookie Policy</a>.</p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn--primary btn--small" data-consent-choice="all">Accetta tutti</button>
+    <button class="btn btn--ghost btn--small" data-consent-choice="necessary">Solo necessari</button>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
